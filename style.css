@@ -2,8 +2,19 @@ body {
   margin: 0;
   overflow: hidden;
   background: #2e4d2e;
+  font-family: Arial, sans-serif;
 }
 
 canvas {
   display: block;
+}
+
+#overlay {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  display: none;
 }
